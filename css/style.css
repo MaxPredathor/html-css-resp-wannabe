@@ -127,13 +127,18 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px){
+ @media screen and (max-width: 768px){
 
     .container{
         width: 768px;
     }
+    section{
+        width: 768px;
+    }
+
 }
-@media screen and (max-width: 480px){
+
+/* @media screen and (max-width: 480px){
 
     .container{
         width: 480px;
@@ -152,4 +157,4 @@ img {
     .why.us{
         background-color: #222222;
     }
-}
+} */
