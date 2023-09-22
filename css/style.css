@@ -130,11 +130,10 @@ img {
  @media screen and (max-width: 768px){
 
     .container{
-        width: 768px;
-        overflow-x: hidden;
+        width: 100%;
     }
     section{
-        width: 768px;
+        width: 100%;
     }
 
 }
@@ -142,16 +141,19 @@ img {
 @media screen and (max-width: 480px){
 
     .container{
-        width: 480px;
+        width: 100%;
         margin: 0;
         padding-left: 50px;
     }
     main{
-        width: 480px;
+        width: 100%;
         margin: 0;
     }
     section{
-        width: 480px;
+        width: 100%;
+        margin: 0;
+    }
+    .steps{
         margin: 0;
     }
     h1{
@@ -183,6 +185,7 @@ img {
     }
     .text{
         width: 100%;
+        padding-bottom: 40px;
     }
     .why-us{
         background-color: #222222;
